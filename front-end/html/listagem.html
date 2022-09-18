@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style-listagem.css">
+
+    <title>E-Commerce - Listagem</title>
+</head>
+<body>
+    <header class="header">
+        <img src="../logo.png" class="imagem">
+
+        <nav>
+            <a href="../html/index.html">Cadastro</a>
+            <a href="../html/listagem.html">Listagem</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="titulo">
+            <h2>Listagem de produtos</h2>
+        </div>
+
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="nome">Nome do produto</label>
+                <input type="text" id="barra-pesquisa" placeholder="Insira o nome do produto que deseja buscar" autofocus>
+            </div>
+            <button id="busca-produto">Limpar busca</button>
+        </form>
+
+        <div id="container-produtos">
+            <template id="template-produtos">
+                <div class="produtos">
+                    <p class="negrito"><span></span> - <span></span></p>
+                    <p><span></span></p>
+                    <br>
+                    <p>R$<span></span>,00</p>
+                </div>
+            </template>
+        </div>
+
+        <div id="container-sem-produto">
+            <template id="template-sem-produto">
+                <div class="sem-produtos">
+                    <p><span></span></p>
+                </div>
+            </template>
+        </div>
+    </div>
+
+    <script src="../js/script-listagem.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style-index.css">
+
+    <title>E-Commerce - Cadastro</title>
+</head>
+<body>
+    <header class="header">
+        <img src="../logo.png" class="imagem">
+
+        <nav>
+            <a href="../html/index.html">Cadastro</a>
+            <a href="../html/listagem.html">Listagem</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="titulo">
+            <h2>Cadastro de produtos</h2>
+        </div>
+
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="nome">Nome do produto</label>
+                <input type="text" id="nome" placeholder="Insira o nome do produto" autofocus minlength="2" required>
+            </div> 
+
+            <div class="form-control">
+                <label for="descricao">Descrição do produto</label>
+                <input type="text" id="descricao" placeholder="Insira a descrição do produto" minlength="10" required>
+            </div>
+
+            <div class="form-control">
+                <label for="preco">Preço do produto</label>
+                <input type="number" id="preco" placeholder="Insira o preço do produto" required>
+            </div>
+
+            <div class="form-control">
+                <label for="categoria">Categoria do produto</label>
+                <input type="text" id="categoria" placeholder="Insira a categoria do produto" minlength="4" required>
+            </div>
+
+            <button id="cria-produto">Salvar</button>    
+        </form>
+        
+
+        
+    </div>
+
+    <script src="../js/script-index.js"></script>
+    <!-- <script src="../js/teste.js"></script> -->
+    
+</body>
+</html>
