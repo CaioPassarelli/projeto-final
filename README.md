@@ -5,11 +5,11 @@ Este é o repositório do projeto final do processo seletivo QueroSerDEV da ammo
 
 
 # Tecnologias utilizadas
-## Back end
+## Back-end
 - JavaScript
-## Front end
+## Front-end
 - HTML / CSS 
-## Banco de dados:
+## Banco de dados
 - MySQL
 ## Dependências:
 - nodemon
