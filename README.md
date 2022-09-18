@@ -23,9 +23,7 @@ Este é o repositório do projeto final do processo seletivo QueroSerDEV da ammo
 
 # Como executar o projeto
 
-## Back end
-
-
+## Back-end
 
 ```bash
 # entrar na pasta do projeto back-end
@@ -38,7 +36,7 @@ npm install
 npm run start
 ```
 
-## Front end web
+## Front-end web
 
 Para rodar o front-end, basta verificar se foi usado o comando "npm run start" no repositório do projeto, e abrir o arquivo "index.html" ou "listagem.html".
 
