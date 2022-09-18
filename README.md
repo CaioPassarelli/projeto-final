@@ -10,7 +10,7 @@ Este é o repositório do projeto final do processo seletivo QueroSerDEV da ammo
 ## Front end
 - HTML / CSS 
 ## Banco de dados:
-- Banco de dados: MySQL
+- MySQL
 ## Dependências:
 - nodemon
 - body-parser
@@ -28,9 +28,6 @@ Este é o repositório do projeto final do processo seletivo QueroSerDEV da ammo
 
 
 ```bash
-# clonar repositório
-git clone https://github.com/CaioPassarelli/projeto-final.git
-
 # entrar na pasta do projeto back-end
 cd back-end
 
